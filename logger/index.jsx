@@ -12,6 +12,7 @@ var PUTS = function (args) {
 var create_logger = function () {
   logger = new Window('palette', "logger", u, {closeButton:true, minimizeButton:true, maximizeButton:false, resizeable:true, borderless:false});
   logger.orientation = 'column';
+  logger.location = [100,100];
   logger.margins = 5;
   logger.spacing = 5;
   logger.alignChildren = ['fill', 'fill'];
